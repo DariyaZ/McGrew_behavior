@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -14,9 +14,137 @@
   <title>McGrew</title>
   <link rel="stylesheet" href="./input.css">
   <link rel="shortcut icon" href="images/icon.ico"/>
+  <link rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+        crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+          integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+          crossorigin="anonymous">
+  </script>
 </head>
 <body>
+  <header class="header">
+    <nav class="navbar_container">
+      <a href="#" target="_blank"><img src="images/logo@2x.png" alt="logo" class="header_logo"></a>
+      
+      <div class="navbar">
+        <ul class="menu">
+          <li><a href="#" class="active">home</a></li>
+          <li><a href="#">about us</a>
+              <ul class="submenu">
+                <li><a href="#">sub1</a></li>
+                <li><a href="#">sub2 <i class="fas fa-caret-right"></i></a>
+                  <ul class="inner_submenu">
+                    <li><a href="#">sub1</a></li>
+                    <li><a href="#">sub1</a></li>
+                    <li><a href="#">sub1</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">sub3</a></li>
+              </ul>
+          </li>
+          <li><a href="#">contact</a>
+              <ul class="submenu">
+                <li><a href="#">sub1</a></li>
+                <li><a href="#">sub2</a></li>
+                <li><a href="#">sub3</a></li>
+              </ul>
+          </li>
+        </ul>
+      </div>
 
+      <a href="#" id="menu">
+        <img src="images/menu_icon@2x.png" alt="menu" class="menu_icon">
+      </a>
+    </nav>
+
+    <section class="hero">
+      <h1 class="hero_heading">We can help.</h1>
+      <p class="hero_therapy">
+        Teaching independence to the lives of the people you love with
+        reliable, individualized emotional and behavioral therapy.
+      </p>
+      <button class="help_button">FIND HELP HERE</button>
+    </section>
+  </header>
+
+  <main class="main">
+    <div class="partners">
+      <img src="images/Magellan@2x.png" alt="magellan logo" target="_blank" class="partners_img magellan_icon">
+      <img src="images/kaiser_permanente@2x.png" alt="kaiser logo" target="_blank" class="partners_img kaiser_icon">
+      <img src="images/anthem@2x.png" alt="anthem logo" target="_blank" class="partners_img anthem_icon">
+      <img src="images/north_bay@2x.png" alt="north bay logo" target="_blank" class="partners_img northbay_icon">
+      <img src="images/healthplan_CA@2x.png" alt="health plan logo" target="_blank" class="partners_img healthplan_icon">
+      <img src="images/aetna@2x.png" alt="aetna logo" target="_blank" class="partners_img aetna_icon">
+    </div>
+
+    <section class="age_support">
+      <h1 class="support_heading">Support For People Of All Walks of Life</h1>
+      <p class="support_content">
+        Children as young as 2 years old maybegin to develop behaviors
+        which need extra support and attention.
+      </p>
+      <img src="images/age@2x.png" alt="" class="support_image">
+    </section>
+
+    <section class="target_audience">
+      <h1 class="audience_heading">McGrew Behavior Services Helps...</h1>
+      <p class="audience_content">
+        Families, organizations and health care providers in Northern
+        California. Our knowledge and experience provide the specialized
+        support people need when overcoming behavioral challenges.
+      </p>
+      <button class="contact_button">CONTACT US</button>
+    </section>
+
+    <section id="slider">
+      <div class="image_container">
+        <img src="images/slider_image.png" alt="">
+      </div>
+      <div class="image_container">
+        <img src="images/slider_image.png" alt="">
+      </div>
+      <div class="image_container">
+        <img src="images/slider_image.png" alt="">
+      </div>
+    </section>
+
+    <section class="join">
+      <div class="join_inner">
+        <p class="join_slogan">Be a part of something bigger than yourself. Make a difference.</p>
+        <h1 class="join_heading">Join Our Team.</h1>
+        <p class="join_info">
+          We are always looking for highly motivated individuals who aligned
+          with our commitment to making a difference in the lives of other
+          people. Whether you're a BCEA or interested in ABA work we are interested
+          in talking to you!
+        </p>
+        <button class="join_button">FIND WHAT’S AVAILABLE</button>
+      </div>
+      <img src="images/command@2x.png" alt="" class="join_image">
+    </section>
+  </main>
+
+  <footer class="footer">
+    <hr class="footer_line">
+    <div class="footer_links">
+      <a href="#" target='_blank'>home</a>
+      <a href="#" target='_blank'>about us</a>
+      <a href="#" target='_blank'>contact</a>
+      <a href="#" target='_blank'>carees</a>
+    </div>
+
+    <div class="rectangles">
+      <div></div><div></div><div></div>
+    </div>
+
+    <span class="address">120 Theresa Ave, American Canyon, CA 94503</span>
+    <span class="phone_number">707.561.0134 </span>
+    <a href="mailto:familyresources@mbisinc.com" target="_blank" class="mail_link">familyresources@mbisinc.com</a>
+    <hr class="footer_down_line">
+    <span class="copyright">Copyright Ⓒ 2017 McGrews Behavior Services All Rights Reserved</span>
+  </footer>
 <script src="./main.js"></script>
 </body>
 </html>
